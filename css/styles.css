@@ -36,8 +36,10 @@ h2{
 }
 
 p{
-    margin: 20px 20px;
+    margin: 20px 0px;
 }
+
+
 
 img {
    max-width: 100%; 
@@ -133,13 +135,15 @@ article {
 }
 
 a.btn {
-    background-color: baf599e;
-    color: #fbfbfb;
+    background-color: #bd2828;
+    color: #ffffff;
     padding: 12px 20px;
     border-radius: 50px;
     font-size: 20px;
     display: inline-block;
 }
+      
+
 
 section#contacto{
     
@@ -159,7 +163,7 @@ figure.enlace-img {
 }
 
 .enlace-img div {
- 
+    width: 80px;
     justify-content: space-evenly;
     padding: 10px;
 
@@ -168,9 +172,49 @@ figure.enlace-img {
 
 footer{
 
-    justify-content: space-around;
-    text-align: center;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
     background-color:  rgba(175, 89, 158, 0.3);
-    height: 90px;
+    color: #fbfbfb;
+
 }
+
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 48px;
+        text-align: left;
+    }
+    h2 {
+        font-size: 32px;
+     
+    }
+
+    section#inicio
+    {
+        flex-direction: row;
+    }
+
+    
+article.presentacion {
+    width: 50%;
+    text-align: left;
+}
+article.context
+{
+    width: 50%;
+    display: flexbox;
+
+}
+
+article {
+    width: 100%;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+
