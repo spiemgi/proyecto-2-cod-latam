@@ -102,7 +102,9 @@ ul#menu {
   
     font-size: 20px;}
 
-li.menu-item a {padding: 16px;}
+li.menu-item a {padding: 16px;
+}
+
 
 section{
     display: flex;
@@ -150,7 +152,7 @@ section#contacto{
     justify-content: space-around;
 }
 
-article.context {
+article.parrafo {
     background-color: rgba(175, 89, 158, 0.3); 
     color: #0f0f0f;
     border-radius: 10px;
@@ -189,9 +191,17 @@ a.btn:hover{
     transition: background-color 0.3s;
 }
 
-body.changeColor
+footer:hover,
+.change-Color
 {
-    background-color: #b6be96;
+    color: #000000;
+    background-color: #ffae00;
+    
+}
+.parrafo:hover,
+.parrafo-modificado
+{
+    background-color: #ffae00;
 }
 
 
@@ -216,7 +226,7 @@ article.presentacion {
     width: 50%;
     text-align: left;
 }
-article.context
+article.parrafo
 {
     width: 50%;
     display: flexbox;
