@@ -102,7 +102,7 @@ ul#menu {
   
     font-size: 20px;}
 
-li.Menu-item a {padding: 16px;}
+li.menu-item a {padding: 16px;}
 
 section{
     display: flex;
@@ -142,7 +142,7 @@ a.btn {
     font-size: 20px;
     display: inline-block;
 }
-      
+
 
 
 section#contacto{
@@ -177,10 +177,23 @@ footer{
     justify-content: center;
     align-items: center;
     padding: 10px;
-    background-color:  rgba(175, 89, 158, 0.3);
-    color: #fbfbfb;
+    background-color:  rgba(119, 45, 104, 0.3);
+    color: #130505;
 
 }
+
+li.menu-item:hover,
+li.menu-item a.active,
+a.btn:hover{
+    background-color: #ffdd1c;
+    transition: background-color 0.3s;
+}
+
+body.changeColor
+{
+    background-color: #b6be96;
+}
+
 
 
 @media (min-width: 1024px) {
