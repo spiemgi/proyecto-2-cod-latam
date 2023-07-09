@@ -1,5 +1,5 @@
 
-cont parrafo = document.querySelector('#parrafo');
+const parrafo = document.querySelector('#parrafo');
 
 parrafo.addEventListener('click', funtion(e) {
 e.target.classList.toggle('parrafo-modificado');
